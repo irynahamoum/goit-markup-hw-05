@@ -733,6 +733,7 @@ img {
   flex-direction: column;
   gap: 8px;
   width: 100%;
+  margin-bottom: 16px;
 }
 
 .modal-field {
@@ -806,18 +807,19 @@ img {
   color: #2e2f42;
 }
 
+.custom-checkbox {
+  position: relative;
+}
+
 .check-field {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-bottom: 24px;
 }
 
 .checkbox {
   opacity: 0;
-}
-
-.custom-checkbox {
-  position: relative;
 }
 
 .custom-checkbox-svg {
@@ -837,6 +839,15 @@ img {
   visibility: visible;
   cursor: pointer;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.terms-text {
+  color: #8e8f99;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.04em;
 }
 
 .modal-button {

@@ -493,13 +493,13 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="form" name="modalform" autocomplete="off">
           <div class="modal-field">
-            <label class="modal-label" for="client-name">Name</label>
+            <label class="modal-label" for="user-name">Name</label>
             <div class="input-wrap">
               <input
                 class="input-with-icon"
                 type="text"
                 name="name"
-                id="client-name"
+                id="user-name"
                 required
                 minlength="2"
                 autofocus
@@ -548,37 +548,37 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
-            <label class="modal-label" for="client-comment">Comment</label>
+          <div class="textarea-field">
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="textarea"
               name="comment"
-              id="client-comment"
+              id="user-comment"
               rows="8"
               placeholder="Text input"
             ></textarea>
           </div>
         </form>
-        <div class="modal-field">
-          <div class="custom-checkbox check-field">
-            <label class="modal-label" for="checkbox">
-              <input class="checkbox" type="checkbox" id="checkbox" />
-              <svg class="custom-checkbox-svg" width="16" height="16">
-                <use href="./images/icons.svg#icon-checkbox"></use>
+        <div class="modal-field-checkbox">
+          <input
+            name="user-privacy"
+            class="checkbox visually-hidden"
+            type="checkbox"
+            id="user-privacy"
+            value="true"
+          />
+          <label class="checkbox-label" for="user-privacy">
+            <span class="custom-checkbox">
+              <svg class="checkbox-svg" width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
               </svg>
-              <svg
-                class="custom-checkbox-svg custom-checkbox-active"
-                width="16"
-                height="16"
-              >
-                <use href="./images/icons.svg#icon-checkbox-active"></use>
-              </svg>
-            </label>
-            <p class="terms-text">
-              I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
-            </p>
-          </div>
+            </span>
+            I accept the terms and conditions of the<a
+              href=""
+              class="privacy-policy"
+              >Privacy Policy</a
+            >
+          </label>
         </div>
         <button type="submit" class="modal-button">send</button>
       </div>

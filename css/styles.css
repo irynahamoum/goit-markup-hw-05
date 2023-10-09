@@ -658,11 +658,11 @@ img {
   pointer-events: auto;
 }
 
-/* .is-open {
+.is-open {
   overflow: hidden;
   opacity: 1;
   visibility: visible;
-} */
+}
 
 .modal {
   position: absolute;

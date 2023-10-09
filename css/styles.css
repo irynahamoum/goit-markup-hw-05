@@ -754,6 +754,7 @@ img {
 .modal-field {
   display: flex;
   flex-direction: column;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -769,7 +770,6 @@ img {
 
 .input-wrap {
   position: relative;
-  margin-bottom: 8px;
 }
 
 /* .input-wrap,

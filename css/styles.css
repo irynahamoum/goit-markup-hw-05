@@ -754,7 +754,6 @@ img {
 .modal-field {
   display: flex;
   flex-direction: column;
-  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -773,13 +772,12 @@ img {
   margin-bottom: 8px;
 }
 
-.input-wrap,
+/* .input-wrap,
 .modal-field textarea {
   outline: none;
-}
+} */
 
 .modal-icon {
-  position: absolute;
   position: absolute;
   left: 16px;
   top: 50%;

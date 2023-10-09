@@ -487,7 +487,7 @@ img {
   align-items: baseline;
 }
 
-.footer-dev-1 {
+.footer-description {
   display: block;
   margin-right: 120px;
   margin-left: 0;
@@ -518,7 +518,7 @@ img {
   width: 264px;
 }
 
-.footer-dev-2 {
+.footer-social {
   display: block;
 }
 

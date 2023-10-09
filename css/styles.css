@@ -683,7 +683,7 @@ img {
   width: 408px;
   height: max-content;
   min-height: 584px;
-  z-index: 1;
+  z-index: 2;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -780,17 +780,17 @@ img {
 
 .modal-icon {
   position: absolute;
-  fill: #2e2f42;
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2e2f42;
 }
 
-.input-icon {
+/* .input-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .input-with-icon {
   padding: 8px 8px 8px 38px;
